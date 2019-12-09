@@ -12,15 +12,15 @@ default:
   # Outgoing emails configuration
   # See the examples below and the Rails guide for more configuration options:
   # http://guides.rubyonrails.org/action_mailer_basics.html#action-mailer-configuration
-  email_delivery:
-     delivery_method: :smtp
-     smtp_settings:
-       address: "smtp.mailgun.org"
-       port: 587
-       authentication: :plain
-       domain: "mg.cotribute.com"
-       user_name: "postmaster@mg.cotribute.com"
-       password: "843292f48b12b4d6bf2c219c7914f82b"
+#   email_delivery:
+#      delivery_method: :smtp
+#      smtp_settings:
+#        address: "address"
+#        port: 25
+#        authentication: :plain
+#        domain: "localhost"
+#        user_name: "your_email@gmail.com"
+#        password: "password"
 
   # ==== Simple SMTP server at localhost
   #
@@ -220,15 +220,15 @@ default:
 # specific configuration options for production environment
 # that overrides the default ones
 production:
-  email_delivery:
-     delivery_method: :smtp
-     smtp_settings:
-       address: "smtp.mailgun.org"
-       port: 587
-       authentication: :plain
-       domain: "mg.cotribute.com"
-       user_name: "postmaster@mg.cotribute.com"
-       password: "843292f48b12b4d6bf2c219c7914f82b"
+#   email_delivery:
+#      delivery_method: :smtp
+#      smtp_settings:
+#        address: "address"
+#        port: port
+#        authentication: :plain
+#        domain: "domain"
+#        user_name: "your_email@gmail.com"
+#        password: "password"
 
 # specific configuration options for development environment
 # that overrides the default ones
